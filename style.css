@@ -309,3 +309,38 @@ nav ul li a:hover{
     font-size: 30px;
     justify-content: space-between;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 620px){
+
+    
+#about-section .content img{
+    width: 450px;
+}
+
+#msg{
+    width: 35%;
+}
+
+#send{
+    width: 20%;
+}
+
+.input{
+    width: 45%;
+}
+
+}
+
+
+@media screen and (max-width: 520px){
+
+   
+#about-section .content img{
+    width: 375px;
+    height: 390px;
+}
+
+}
