@@ -144,6 +144,7 @@ nav ul li a:hover{
 .content{
     display: flex;
     flex-wrap: wrap;
+    gap: 45px;
 }
 
 .content img{
@@ -156,12 +157,12 @@ nav ul li a:hover{
 
 .topics{
     height: 500px;
-    width: 750px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 30px;
-    margin: 30px;
+    padding: 10px;
+    margin: 20px;
 }
 
 .topics h2{
@@ -225,10 +226,10 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 448px;
+    height: 468px;
     box-shadow:  0 0 10px black;
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
     align-items: center;
     text-align: justify;
     border-radius: 11px;
@@ -238,8 +239,8 @@ nav ul li a:hover{
 }
 
 .box i{
-    font-size: 120px;
-    color: blue;
+    font-size: 100px;
+    color: black;
 }
 
 .box:hover{
@@ -302,12 +303,23 @@ nav ul li a:hover{
     font-weight: bolder;
 }
 
+.font-awesome{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.font-awesome a{
+    text-decoration: none;
+}
+
 .font-awesome i{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 30px;
-    justify-content: space-between;
+    color: black;
+    font-size: 20px;
 }
 
 
